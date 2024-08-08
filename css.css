@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: "poppins", "sans-scrif";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #eeeeee;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.logo {
+    text-decoration: none;
+    color: #2e97a7;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.links a {
+    text-decoration: none;
+    color: #1aacac;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.links a:hover {
+    color: #007474;
+}
+
+section {
+    padding: 10em 2em;
+}
+
+.section1 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(image/section.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.section1 .h2 {
+    font-size: 1.9em;
+    color: #ffffff;
+    text-shadow: #aaa .6px .6px 4px;
+}
+.p-programmer{
+    color: #000000;
+    text-shadow: #eee .6px .6px 4px;
+}
+
+.section1 span {
+    font-size: 2.6em;
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: 700;
+    text-shadow: #9fa0a0 .6px .6px 4px;
+}
+
+.section1 .h3 {
+    color: #ffffff;
+    text-shadow: #cecdcd .4px 0px 5px,#000000 -.4px 0px 5px;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.botten-progects {
+    font-weight: 800;
+    color: #0081d6;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.8em 1.8em;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 9px 0px #2b2b2b;
+    transition: 0.7s ease;
+
+}
+
+.botten-progects:hover {
+    color: #007474;
+    background-color: #ffffff;
+    box-shadow: -3px -3px 9px 0px #2b2b2b;
+    transform: scale(1.04);
+}
+
+.icon-app a {
+    color: #000000;
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: all .1s linear;
+}
+.icon-app a:hover{
+    position: relative;
+    bottom: 4px;
+    color: #2b2b2b;
+}
+
+.title-services {
+    display: flex;
+    justify-content: center;
+    color: #0081d6;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card1 {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    background-color: #ffffff;
+    width: 19.25em;
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px 0px #52515133;
+    padding: 25px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+}
+
+.icon-card1 {
+    color: #1aacac;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info-card1 h3 {
+    color: #00c3ff;
+    font-size: 1.4em;
+    font-weight: 800;
+    margin: 10px;
+}
+
+.info-card1 {
+    text-align: center;
+}
+
+.progects {
+    background-color: #01002c;
+}
+
+.progects .content {
+    margin-top: 30px;
+
+}
+
+.card2 {
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    min-height: 7em;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 1.7em;
+    transition: 0.5s ease;
+
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.image-p {
+    width: 100%;
+}
+
+.card2:hover .image-p {
+    opacity: 0.9;
+}
+
+.p-info {
+    padding: 1em;
+
+
+}
+
+.p-p {
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.title-p {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more {
+    text-decoration: none;
+    color: #00c3ff;
+}
+
+.more:hover {
+    color: #68dcff;
+}
+.a-contact{
+    text-decoration: none;
+    color: #002f3d;
+    font-size: 1.2em;
+    font-weight: 1000;
+    margin: auto;
+}
+
+footer {
+    background-color: #01002c;
+    color: #004b7c;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer .icon-app a {
+    color: #ffffff;
+}
+
+footer span {
+    color: #00c3ff;
+}
+
+footer p {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+footer .icon-app a {
+    font-size: 1.5em;
+    padding: 0 20px 0 0;
+}
+@media (width <= 478px)
+{
+    header {
+        background-color: #eeeeee;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        padding: 7px 10%;
+    }
+    .logo {
+        text-decoration: none;
+        color: #2e97a7;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 1.2em;
+    }
+    .links a {
+        text-decoration: none;
+        color: #1aacac;
+        font-size: 1em;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+}
+@media (width <= 1187px){
+    .card2 {
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    min-height: 7em;
+    width: 40%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 1.7em 0.8em;
+    transition: 0.5s ease;
+}
+}
+@media (width <= 607px){
+    .card2 {
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    min-height: 7em;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 1.7em;
+    transition: 0.5s ease;
+}
+}
